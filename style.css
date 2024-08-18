@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+ align-items: center;
+}
+#search-container {
+  margin-top: 8%;
+}
+.container #country-name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  height: 30px;
+}
+
+.container #search-btn {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  padding: 5px 4px;
+}
+
+#name{
+    margin-top: 10%;
+    margin-bottom: -10%;
+    color: blue;
+    text-align: center;
+}
+#native-name{
+    margin-top: 10%;
+    margin-bottom: -10%;
+    color:orangered;
+    text-align: center;
+}
+
